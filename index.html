@@ -4,11 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kotomasu</title>
+    <title>ことばマスター</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <main>
+        <img class="logo" src="img/kotobamaster_logo.svg" alt="ことばマスターロゴ" width="300px">
 
+        <section class="category-menu">
+            <div class="dropdown">
+                <button class="dropdown-button" onclick="toggleDropdown()">就職活動</button>
+                <div class="dropdown-content" id="dropdown-menu">
+                    <a href="Interview.html">面接時</a>
+                    <a href="Email_Documents.html">メール文書</a>
+                    <a href="Job_Offer.html">内定後</a>
+                </div>
+            </div>
+            <button class="Selectbutton">目上の方との会話</button>
+            <button class="Selectbutton">社交シーン</button>
+            <button class="Selectbutton">就職活動</button>
+            <button class="Selectbutton">メール・文書作成</button>
+            <button class="Selectbutton">電話対応</button>
+        </section>
+    </main>
+
+    <!-- JavaScriptコードをここに記述 -->
+    <script>
+        // ドロップダウンメニューの表示・非表示を切り替える関数
+        function toggleDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.classList.toggle('show');
+        }
+
+        // メニュー外をクリックしたときに閉じるイベントリスナー
+        window.addEventListener('click', function (event) {
+            const dropdown = document.getElementById('dropdown-menu');
+            const button = document.querySelector('.dropdown-button');
+            if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+                dropdown.classList.remove('show');
+            }
+        });
+    </script>
 </body>
 
 </html>
