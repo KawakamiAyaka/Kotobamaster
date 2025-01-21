@@ -79,11 +79,6 @@ body {
             font-weight: bold;
             padding: 15px 20px;
             margin: 10px 0;
-
-            a {
-                color: #fff;
-                text-decoration: none;
-            }
         }
     }
 }

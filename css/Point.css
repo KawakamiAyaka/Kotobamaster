@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f3f5ff;
+    text-align: center;
+    width: 100%;
+
+    .box-design15 {
+        margin: 20px auto;
+        width: 80%;
+        margin-top: 50px;
+
+        .box-design15-ttl {
+            background-color: #4c9ac0;
+            color: #fff;
+            padding: 0.5em 20px;
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .box-design15-txt {
+            padding: 10px 20px;
+            border: 2px solid #4c9ac0;
+
+            ol {
+                margin-left: -s0px;
+                margin-bottom: 10px;
+
+                li {
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    margin-top: -1px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
