@@ -41,6 +41,21 @@ body {
         }
     }
 
+    .Back {
+        background: #fff;
+        padding: 15px 25px;
+        border-radius: 5px;
+        margin-top: 30vh;
+        border: 1px solid #d9d9d9;
+        margin: 20px;
+
+        a {
+            color: #0A0028;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+
     .Muve_button {
         background: #12004A;
         padding: 15px 40px;

@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #f3f5ff;
     text-align: center;
+    font-family: "Noto Sans JP", serif;
 
     .Message {
         margin-top: 50px;
